@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.navi{
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.145);
+}
+.navi > img{
+  padding: 0px 0 0 30px;
+  margin: 25px 15px;
+  height: 40px;
+}
+.group{
+  margin-top: 25px;
+  text-align: center;
+}
+.group > img{
+  background-color: rgb(255, 255, 255);
+}
+.group>h2, .group p{
+  text-align: left;
+}
+.group>h2{
+  margin-left: 5%;
+  font-size: 60px;
+}
+.group>p{
+  width: 45%;
+  margin-left: 5%;
+  font-size: 20px;
+}
+.repeat{
+  display: inline-block;
+  text-align: center;  
+  padding: 30px;
+  width: 45%;
+  font-size: 200%;
+}
+/* .fle{
+  display: flex;
+} */
+.done{
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+
+  overflow: scroll;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  padding: 10px;
+  font-size: 12px;
+}
+.card> img{
+  width: 175px;
+  height: 235px;
+  border-radius: 10px;
+}
+.firstline > img{
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+
+}
+.secondline, .thirdline{
+  font-weight: 300;
+}
+.secondline, .thirdline, .firstline{
+  padding-top: 5px;
+}
+.gray{
+  color: gray;
+}
+.bold{
+  font-weight:500 ;
+}
+@media screen and (max-width: 800px) {
+  .navi{
+    text-align: center;
+  }
+  .navi>img{
+    padding: 15px 0;
+    margin: 0;
+  }
+  .group > img{
+    width: 80%;
+  }
+  .group > h2{
+    font-size: 33px;
+  }
+  .group > p{
+    padding-right: 0;
+    width: 70%;
+  }
+}
